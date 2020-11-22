@@ -4,151 +4,137 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EEC</title>
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./content.css" />
-    <link rel="stylesheet" href="./content1.css" />
-    <link rel="stylesheet" href="./content2.css" />
-    <link rel="stylesheet" href="./content3.css" />
-    <link
-      rel="icon"
-      href="./images/ebenLogo.png "
-      type="image/icon"
-      sizes="16x16"
-    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon" />
+    <script src="./js/index.js" defer></script>
   </head>
-  <body id="bd">
-    <div class="jkl">
-      <img src="./images/ebenLogo.png" alt="mainLogo" id="logoSS" />
+  <body>
+    <div id="start">
+      <img src="./images/logo.svg" id="imggg" alt="Logo" />
     </div>
+    <div id="end">
+      <img
+        src="./images/logo.svg"
+        alt="Eben Engineering And Contracts"
+        id="logo"
+      />
+      <!-- 
+  <div id="Options">
+    <ul>
+      Services
+    </ul>
+    <ul>
+      Clients
+    </ul>
+    <ul>
+      Projects
+    </ul>
+    <ul>
+      About
+    </ul>
+    <ul>
+      Contact
+    </ul>
+  </div> -->
 
-    <main id="headM">
-      <div id="imageB">
-        <!-- <img src="../images/pic1.jpg" alt="" id="ch" /> -->
-        <video id="ch" loop autoplay>
-          <source src="./images/back1.mp4" type="video/mp4" />
-          <!-- <source src="movie.ogg" type="video/ogg" /> -->
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="filter"></div>
+      <div class="sideBar"></div>
 
-      <div class="three">
-        <div id="one"></div>
-        <div id="two"></div>
-        <div id="threeS"></div>
-        <div id="four"></div>
-        <div id="five"></div>
-      </div>
+      <div id="middleLoop">
+        <div class="spacer"></div>
+        <div class="boxes" id="one">
+          <div class="recTangle">
+            <img src="./images/Rectangle 7.svg" class="innerRect" alt="" />
+          </div>
+          <div class="PutOther">
+            <div class="topS">Service</div>
+            <div class="mess">
+              For more than 25 years we have deployed the latest equipment and
+              techniques to support all type of industry in the region. EEC
+              executed significant brown field Construction, Green Field
+              construction, Annual Maintenance Contract (AMC) and turn around
+              services including mechanical works, Piping, structure, Ducting,
+              Equipment’s, Roof Sheeting, pre-commissioning services & Man power
+              Supply.
+            </div>
+          </div>
+        </div>
 
-      <div class="buttonS">
-        <div class="sr">
-          <img src="./images/one.png" alt="" id="service" />
-          <div class="name">Services</div>
+        <div class="spacer"></div>
+        <div class="boxes" id="two">
+          <div class="recTangle">
+            <img src="./images/Rectangle8.svg" class="innerRect" alt="" />
+          </div>
+          <div class="PutOther">
+            <div class="topS" style="background-color: #3a5874; color: white">
+              Clients
+            </div>
+            <div class="mess">
+              Aditya Birla Insulators | CEAT Tyres | Grindwell Norton
+              (Saintgobain) | SG Shinagawa Refactories | Inox India | Crompton
+              Greaves | KEC International | Setco | Lava Cast | Etc.
+            </div>
+          </div>
         </div>
-        <div class="cli">
-          <img src="./images//two.png" alt="" id="clients" />
-          <div class="name">Clients</div>
-        </div>
-        <div class="ab">
-          <img src="./images/three.png" alt="" id="projects" />
-          <div class="name">Projects</div>
-        </div>
-        <div class="abou">
-          <img src="./images/About.svg" alt="" id="about" />
-          <div class="name">About</div>
-        </div>
-        <div class="cont">
-          <img src="./images/Contact.svg" alt="" id="contact" />
-          <div class="name">Contact</div>
-        </div>
-      </div>
-    </main>
-    <main id="changingMain">
-      <div class="out1">
-        <img src="./images/pic1.jpg" alt="some" class="flo" id="imageS1s" />
-        <!-- <img src="../images/pic2.jpg" alt="some" class="flo" id="imageS2" />
-        <img src="../images/pi3.jpg" alt="some" class="flo" id="imageS3" /> -->
-      </div>
-      <div class="out2">
-        <div class="headd">Services</div>
-        <div class="message">
-          For more than 25 years we have deployed the latest equipment and
-          techniques to support all type of industry in the region. EEC executed
-          significant brown field Construction, Green Field construction, Annual
-          Maintenance Contract (AMC) and turn around services including
-          mechanical works, Piping, structure, Ducting, Equipment’s, Roof
-          Sheeting, pre-commissioning services & Man power Supply.
-        </div>
-      </div>
-    </main>
-    <main id="changingMain1">
-      <div class="out21">
-        <div class="headd1">Clients</div>
-        <div class="message1">
-          Aditya Birla Insulators | CEAT Tyres | Grindwell Norton (Saintgobain)
-          | SG Shinagawa Refactories | Inox India | Crompton Greaves | KEC
-          International | Setco | Lava Cast | Etc.
-        </div>
-      </div>
-      <div class="out11">
-        <img
-          src="./images/clientImage.jpg"
-          alt="some"
-          class="flo1"
-          id="imageS11"
-        />
-      </div>
-    </main>
 
-    <main id="changingMain11">
-      <div class="out111">
-        <img
-          src="./images/projectS.jpg"
-          alt="some"
-          class="flo1"
-          id="imageS111"
-        />
-      </div>
-      <div class="out211">
-        <div class="headd111">Projects</div>
-        <div class="message111">
-          Tata Projects (Sanand) | Ceat (Phase-1, Phase-2, Phase-3)| Inox |
-          Grindwell Norton (Utility Piping) | Etc.
+        <div class="spacer"></div>
+        <div class="boxes" id="three">
+          <div class="recTangle">
+            <img src="./images/Rectangle9.svg" class="innerRect" alt="" />
+          </div>
+          <div class="PutOther">
+            <div class="topS" style="color: white; background-color: #99345b">
+              Projects
+            </div>
+            <div class="mess">
+              Tata Projects (Sanand) | Ceat (Phase-1, Phase-2, Phase-3)| Inox |
+              Grindwell Norton (Utility Piping) | Etc.
+            </div>
+          </div>
         </div>
-      </div>
-    </main>
 
-    <main id="changingMain111">
-      <div class="out2111">
-        <div class="headd1111">About</div>
-        <div class="message1111">
-          EEC possess one of the largest pool of quality resources in the
-          Central Gujarat with the most experience. Our targets are to meet the
-          safety, quality and schedule; the three keys of success to our
-          valuable client.
+        <div class="spacer"></div>
+        <div class="boxes" id="four">
+          <div class="recTangle">
+            <img src="./images/Rectangle10.svg" class="innerRect" alt="" />
+          </div>
+          <div class="PutOther">
+            <div class="topS" style="background-color: white">About Us</div>
+            <div class="mess">
+              EEC possess one of the largest pool of quality resources in the
+              Central Gujarat with the most experience. Our targets are to meet
+              the safety, quality and schedule; the three keys of success to our
+              valuable client.
+            </div>
+          </div>
         </div>
+
+        <div class="spacer"></div>
+        <div class="boxes" id="five">
+          <div class="recTangle">
+            <img src="./images/Rectangle11.svg" class="innerRect" alt="" />
+          </div>
+          <div class="PutOther">
+            <div class="topS" style="background-color: #f83542; color: white">
+              Contacts
+            </div>
+            <div class="mess">
+              Contact:<br /><br />
+              Email: eec.gujarat@yahoo.com Phone: +919825184062 Kalol,
+              Panchmahal, Gujarat, India: 389330
+            </div>
+          </div>
+        </div>
+
+        <div class="spacer"></div>
       </div>
-      <div class="out1111">
-        <img src="./images/abb.png" alt="some" class="flo1" id="imageS1111" />
+      <div id="buttons">
+        <ul>
+          <img src="./images/left.svg" class="btn" id="left" alt="left" />
+        </ul>
+        <ul>
+          <img src="./images/right.svg" class="btn" id="right" alt="right" />
+        </ul>
       </div>
-    </main>
-    <footer id="changingMain1111">
-      <div id="mss">
-        <span id="sss">Contact:</span>
-        <br />
-        <span id="smss"
-          >Email:
-          <a href="mailto:eec.gujarat@yahoo.com">eec.gujarat@yahoo.com</a></span
-        >
-        <span id="Ph"
-          >Phone: +919825184062 <br />
-          Kalol, Panchmahal, Gujarat, India: 389330
-        </span>
-      </div>
-      <div class="fother">
-        <img src="./images/ebenLogo.png" alt="" id="flt" />
-      </div>
-    </footer>
-    <script src="./index.js"></script>
+    </div>
   </body>
 </html>
